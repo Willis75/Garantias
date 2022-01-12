@@ -1,0 +1,186 @@
+h2{
+  text-align: center;
+}
+
+.sub{
+  text-decoration: underline;
+  display: inline;
+}
+
+.inline{
+  display: inline;
+}
+
+#imagen{
+  float: left;
+}
+
+#firmas{
+  position: relative;
+  float: left;
+  margin-left: 160px;
+}
+
+#logo{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+#titulo{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 40px;
+}
+
+#linea_divisoria{
+  position: absolute;
+  height: 5px;
+  width: 750px;
+  background-color: blue;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#linea_divisoria2{
+  position: absolute;
+  height: 5px;
+  width: 920px;
+  background-color: blue;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#datos{
+  position:absolute;
+  margin-left: 800px;
+  border: solid 1px blue;
+  height: 100px;
+  width: 150px;
+  font-size: large;
+  padding-left: 10px;
+  line-height: 25px;
+  text-decoration: underline;
+}
+
+#datos_dictamen{
+  margin-top: 70px;
+  position:absolute;
+  margin-left: 800px;
+  height: 30px;
+  width: 150px;
+  font-size: large;
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+#fecha_actual{
+  float: right;
+}
+#cuerpo{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 50px;
+  font-size: large;
+}
+
+#fecha_factura{
+  padding-left: 60px;
+}
+
+#fecha_solicitud{
+  padding-left: 30px;
+}
+
+#falla{
+  text-decoration: underline;
+  border: hidden;
+  resize:none;
+}
+
+#aplica{
+  padding-left: 60px;
+}
+
+#aplica_text{
+  text-decoration: underline;
+}
+
+#descripcion{
+  padding-left: 40px;
+}
+
+#notas{
+  border: hidden;
+  resize:none;
+  overflow: hidden;
+}
+
+#recibe{
+  padding-left: 170px;
+}
+
+#acepta{
+  padding-left: 220px;
+}
+
+#recibe_linea{
+  padding-left: 70px;
+}
+
+#acepta_linea{
+  padding-left: 65px;
+}
+
+#linea_nombre1{
+  padding-left: 145px;
+} 
+
+#linea_nombre2{
+  padding-left: 200px;
+}  
+
+#terminos{
+  border: 1px solid;
+  resize:none;
+  overflow: hidden;
+}
+
+#causa_falla{
+  border: 1px solid;
+  resize:none;
+  overflow: hidden;
+}
+#comentario_dictamen{
+  border: 1px solid;
+  resize:none;
+  overflow: hidden;
+}
+
+#contacto{
+  border: hidden;
+  resize:none;
+  overflow: hidden;
+  font-size: large;
+  font-family: times;
+}
+
+#recibido{
+  padding-left: 500px;
+}
+
+#linea_recibido{
+  padding-left: 580px;
+}
+
+#fecha_recibido{
+  padding-left: 530px;
+}
+
+#direccion{
+  border: hidden;
+  resize:none;
+  overflow: hidden;
+  font-size: x-small;
+  text-align: center;
+}

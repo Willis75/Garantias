@@ -1,0 +1,16 @@
+/* 
+    Document   : Prueba
+    Created on : 13/06/2013, 06:04:05 PM
+    Author     : wlongoriap
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div{
+    border: 1px solid black;
+    border-radius: 10px;    
+}

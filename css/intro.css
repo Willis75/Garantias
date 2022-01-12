@@ -1,0 +1,16 @@
+th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+td {
+	vertical-align: middle;
+}
+
+.btn.btn-info{
+	margin-left: 10px;
+}
+
+#tickets_abiertos{
+	overflow: visible;
+}

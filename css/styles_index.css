@@ -1,0 +1,200 @@
+.inline{
+    display:inline;
+}
+
+.shadow{
+  box-shadow: 0px 0px 5px 3px #FFA500;
+}
+
+p.texto{
+  text-align: center;
+}
+
+a{
+  color:#000066;  
+}
+
+a:hover{
+  color:gold;
+}
+
+body{
+
+}
+
+table{
+  border-collapse: collapse;
+}
+
+#formato{
+  width: 600px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px blue;
+  line-height: 40px;
+}
+
+#contenido_usuario{
+  text-align: left;
+}
+
+#top1{
+  text-align: center;
+}
+
+#envoltorio{
+  font-family: Arial;
+  font-size: small;
+  overflow: hidden;
+}
+
+#envoltorio_interno{
+}
+
+#encabezado{
+
+}
+
+#franja_superior{
+  height: 5px;
+  background: #0066FF;
+}
+
+#navegacion{
+    font-size:medium;
+    padding-top:5px;
+}
+
+.navegacion{
+    float:left;
+    display: inline;
+    padding-left: 15px;
+}
+
+#cuerpo{
+  left:50px;
+  right: 50px;
+}
+
+.linea{
+  padding-top: 1px;  
+}
+
+#datos_cliente{
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+#datos_cliente_lbl{
+    padding-left: 20px;
+}
+
+.ui-autocomplete {
+max-height: 100px;
+max-width: 500px;
+min-width: 100px;
+overflow-y: auto;
+/* prevent horizontal scrollbar */
+overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+
+* html .ui-autocomplete {
+height: 100px;
+}
+
+#datos_producto{
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+#INVENTORY_ITEM_ID{
+    text-align: center;
+}
+
+#div_otro{
+  display: none;
+}
+
+.label{
+    width:150px;
+    display:inline;
+    margin-right: 1px;
+    float:left;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.content{
+   display:inline;
+   clear:right;
+}
+
+#lada{
+    text-align:right;
+}
+
+#ext{
+    text-align:center;
+}
+
+.boton{
+    text-align: center;
+}
+
+.block{
+    clear:both;
+}
+
+.space{
+  padding-top: .001em;
+
+}
+
+#CUSTOMER_NUMBER{
+  text-align: center;
+}
+
+#dias_factura{
+    text-align: center;
+}
+
+#linea{
+text-align: center;    
+}
+
+#falla{
+  resize: none;
+}
+
+#descripcion{
+
+}
+
+#adjunto{
+  padding-bottom: 0em;
+}
+
+#descrip{
+  resize: none;
+}
+  
+.lista_tickets{
+  border-radius: 10px;
+  position:relative;
+  border: solid 1px blue;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 400px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.clear{
+  clear: both;
+}
+

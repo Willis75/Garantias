@@ -1,0 +1,221 @@
+root { 
+    display: block;
+}
+
+p.texto{
+  text-align: center;
+}
+
+a{
+  color:#000066;  
+}
+
+a:hover{
+  color:gold;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+   text-align: center;
+}
+
+.center{
+  position: absolute;
+  margin-left: 50%;
+}
+
+.izq{
+    text-align: left;
+}
+
+body{
+}
+
+.ui-autocomplete {
+max-height: 100px;
+max-width: 500px;
+min-width: 100px;
+overflow-y: auto;
+/* prevent horizontal scrollbar */
+overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+
+* html .ui-autocomplete {
+height: 100px;
+}
+
+.left{
+  text-align: left;
+}
+
+.boton_remover{
+
+}
+
+#envoltorio{
+
+  font-family: Arial;
+  font-size: medium;
+
+}
+
+#envoltorio_interno{
+
+}
+
+#envoltorio_tabla{
+  overflow: auto;
+  height: 99%;
+}
+
+
+#tabla tbody tr {
+  height: 30px;
+}
+
+#tabla thead tr{
+  background-color: grey;
+  color:white;
+}
+
+#encabezado{
+
+}
+
+.boton_remover{
+  border-radius: 5px;
+  background-color: #8B2323;
+  color: #FEF0C9;
+}
+
+#boton_agregar{
+  border-radius: 5px;
+  background-color: #458B00;
+  color:white;
+}
+
+#franja_superior{
+  height: 5px;
+  background: #0066FF;
+}
+
+#cuerpo{
+
+  top: 170px;
+  bottom:40px;
+  left:50px;
+  right: 50px;
+
+}
+
+#navegacion{
+font-size: medium; 
+float:left;
+}
+
+.navegacion{
+    float:left;
+    display: inline;
+    padding-left: 15px;
+}
+
+#CUSTOMER_NUMBER{
+  text-align: center;
+}
+
+#TOP{
+  text-align: center;
+}
+
+#volver{
+   display:inline;
+   margin-right: 40px;
+   margin-left:30px;
+}
+
+#cerrar_sesion{
+   display:inline;
+   margin-right: 40px;
+   margin-left:30px;
+}
+
+.link{
+   display:inline;
+   margin-right: 40px;
+   margin-left:30px;
+}
+
+#todos{
+   display:inline;
+   margin-right: 40px;
+   margin-left:30px;
+}
+
+.linea{
+  padding-top: 1px;  
+}
+  
+#tickets_abiertos{
+
+
+
+}
+
+.lista_tickets{
+  border-radius: 10px;
+  position:relative;
+  border: solid 1px blue;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 45px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.lista_tickets_all{
+  border-radius: 10px;
+  position:relative;
+  border: solid 1px blue;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 98%;
+  height: 30px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+#franja_inferior{
+
+  left: 10px;
+  right: 10px;
+
+  height: 5px;
+  background: #0066FF;
+}
+
+#pie{
+
+  left: 10px;
+  right: 10px;
+
+  height: 5px;
+  text-align: center;
+  font-size: small;
+  background: white;
+}

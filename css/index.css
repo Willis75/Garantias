@@ -1,0 +1,14 @@
+.columna{	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.lista_tickets{
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	min-height: 60px;
+}

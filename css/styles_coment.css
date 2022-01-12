@@ -1,0 +1,314 @@
+root { 
+    display: block;
+}
+
+.shadow{
+  box-shadow: 0px 0px 5px 3px #FFA500;
+}
+
+p.texto{
+  text-align: center;
+}
+
+a{
+  color:#000066;  
+}
+
+a:hover{
+  color:gold;
+}
+
+
+body{
+}
+
+#accion{
+  width: 335px;
+}
+
+#envoltorio{
+  width: 100%;
+  font-family: Arial;
+  font-size: medium;
+  overflow: hidden;
+}
+
+#envoltorio_interno{
+}
+
+#encabezado{
+
+}
+
+#franja_superior{
+  height: 5px;
+  background: #0066FF;
+}
+
+#cuerpo{
+  position: absolute;
+  top: 170px;
+  bottom:40px;
+  left:50px;
+  right: 50px;
+  overflow:hidden;
+}
+
+#navegacion{
+    font-size:medium;
+    padding-top:5px;
+}
+
+
+#inicio{
+    float:left;
+    display: inline;
+    width:200px;
+}
+
+
+.navegacion{
+    float:left;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.linea{
+  padding-top: 1px;  
+}
+
+.label{
+    width:150px;
+    display:inline;
+    margin-right: 1px;
+    float:left;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.content{
+   display:inline;
+   clear:right;
+}
+
+#nvo_coment{
+  width: 40%;
+  height: 99%;
+  float:left;
+  text-align: left;
+  overflow: auto;
+}
+
+.enviar{
+    margin-left:270px;
+    font-size: medium;
+}
+
+#si{
+  display: inline;
+}
+
+#radio{
+  display: inline;
+}
+
+#radio2{
+  display: inline;
+}
+
+#top2{
+  text-align: center;
+}
+
+#coment{
+  resize: none;
+  text-align: left;
+}
+
+#descripcion{
+  resize: none;
+  text-align: left;
+}
+
+#falla{
+  resize: none;
+  text-align: left;
+}
+
+#cliente{
+  resize: none;
+  text-align: left;
+}
+
+#No_cliente{
+
+}
+
+#descrip{
+    resize: none;
+    text-align:left;
+}
+
+#revision{
+  resize:none;
+}
+
+#wrap{
+    height:2em;
+}
+
+#tag{
+    display:inline;
+    padding-top:0px;
+}
+
+#block{
+    clear:both;
+}
+
+
+#lada{
+    text-align:right;
+}
+
+#ext{
+    text-align: center;
+}
+
+#cerrar{
+    display:inline;
+    height: 15px;
+    padding-top: 2px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border: blue solid 2px;
+    text-align: center;
+    font-size: 12;
+    border-radius:10px;
+    box-shadow: 3px 3px 1px 1px darkslategray;
+    margin-bottom:5px;
+    margin-left: 10px;
+    margin-right: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#cerrar_folio{
+  height: 40px;
+}
+
+.boton{
+    border-radius: 10px;
+    border: solid 1px blue;
+    margin-left:10px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 35px;
+    padding-top: 12px;
+    text-align: center;
+    box-shadow: 3px 3px 1px 1px darkslategray;
+    display:inline;
+    background-color: transparent;
+}
+
+.boton2{
+    border-radius: 10px;
+    border: solid 1px blue;
+    margin-left:10px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 40px;
+    padding-top: .5em;
+    text-align: center;
+    box-shadow: 3px 3px 1px 1px darkslategray;
+    display:inline;
+    background-color: transparent;
+}
+
+.inline{
+  display: inline;
+}
+
+.texto{
+    color:black;
+    text-align: center;
+}
+
+#datos{
+    
+}
+
+#aplica{
+  text-align: center;
+}
+
+#causa_falla{
+  resize:none;
+}
+
+#causa_falla2{
+  resize:none;
+}
+
+#comentarios_aplica2{
+  resize:none;
+}
+
+#comentarios_dictamen2{
+  resize:none;
+}
+
+#comentarios_dictamen{
+  resize:none;
+}
+
+#comentarios{
+  width: 57%;
+  float:right;
+  height: 99%;
+  overflow: auto;
+}
+
+#procede{
+  text-align: center;
+}
+
+.lista_coments{
+  border-radius: 10px;
+  position:relative;
+  border: solid 1px blue;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 550px;
+  height: 60px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left:10px;
+  overflow:auto;
+}
+
+.clear{
+  clear: both;
+}
+
+#franja_inferior{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 30px;
+  height: 5px;
+  background: #0066FF;
+}
+
+#pie{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 20px;
+  height: 5px;
+  text-align: center;
+  font-size: small;
+  background: white;
+}
